@@ -151,7 +151,7 @@ const FooterStyled = createGlobalStyle`
       padding: .25rem 0;
     }
 
-    i {
+    .svg-inline--fa {
       color: var(--secondary-color);
     }
 

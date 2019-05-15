@@ -73,7 +73,7 @@ const HeaderStyled = createGlobalStyle`
           color: var(--secondary-color);
         }
 
-        i {
+        .svg-inline--fa {
           color: var(--secondary-color);
         }
       }
