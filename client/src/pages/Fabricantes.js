@@ -26,7 +26,7 @@ class Fabricantes extends Component {
         <section className="section">
           <Grid item container className="container" spacing={32}>
             <Grid item xs={12}>
-              <p className="description">Já atendemos todos os tipos de obras e exigências! Esses são alguns de nossos clientes.</p>
+              <p className="description">Somos credenciados nos principais e mais conceituados fabricantes de aparelhos de ar condicionado do mercado. Confira!</p>
             </Grid>
           </Grid>
         </section>
