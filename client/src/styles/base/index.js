@@ -41,7 +41,7 @@ const Base = createGlobalStyle`
   }
 
   .main {
-    min-height: 50vh;
+    min-height: 25vh;
   }
 
   .section {
@@ -201,14 +201,15 @@ const Base = createGlobalStyle`
   }
 
   .page {
-    min-height: 70vh;
     width: 100%;
     -webkit-overflow-scrolling: touch;
-    transition: opacity 1s ease-in-out;
+    transition: opacity .5s ease-in-out;
   }
 
   .page-enter {
+    min-height: 50vh;
     opacity: 0;
+    transition: opacity 1s ease-in-out 1s;
   }
 
   .page-enter-active {
@@ -216,11 +217,13 @@ const Base = createGlobalStyle`
   }
 
   .page-exit {
+    min-height: 50vh;
     opacity: 0;
   }
 
   .page--prev.page-enter {
     opacity: 0;
+    transition: opacity 1s ease-in-out 1s;
   }
 
   .page--prev.page-enter-active {
@@ -228,6 +231,7 @@ const Base = createGlobalStyle`
   }
 
   .page--prev.page-exit {
+    min-height: 50vh;
     opacity: 0;
   }
 `

@@ -58,7 +58,7 @@ class Footer extends Component {
           <Grid item className="footer__custom-column">
             <div className="freezing-contact align-top">
               <h2>Freezing Ar Condicionado</h2>
-              <a className="font-eras letter-spacing--1" href="tel:01144494607" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPhone} /> (11) 4449.4607</a>
+              <a className="font-eras letter-spacing--1" href="tel:01144494607" rel="noopener noreferrer"><FontAwesomeIcon icon={faPhone} /> (11) 4449.4607</a>
               <a href="mailto:freezing@freezing.com.br" target="_blank" rel="noopener noreferrer">freezing@freezing.com.br</a>
             </div>
           </Grid>
@@ -68,7 +68,7 @@ class Footer extends Component {
           <Grid item className="footer__custom-column">
             <div className="freezing-contact">
               <h2>Freezing Gases</h2>
-              <a className="font-eras letter-spacing--1" href="tel:01144494607" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPhone} /> (11) 4449.4607</a>
+              <a className="font-eras letter-spacing--1" href="tel:01144494607" rel="noopener noreferrer"><FontAwesomeIcon icon={faPhone} /> (11) 4449.4607</a>
               <a className="font-eras letter-spacing--1" href="https://api.whatsapp.com/send?phone=5511958966939" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'whatsapp']} /> (11) 95896-6939</a>
               <a href="mailto:freezing@freezing.com.br" target="_blank" rel="noopener noreferrer">freezing@freezing.com.br</a>
             </div>
@@ -115,7 +115,7 @@ class Footer extends Component {
 
           <div className="freezing-contact">
             <h2>Freezing Ar Condicionado</h2>
-            <a className="font-eras letter-spacing--1" href="tel:01144494607" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPhone} /> (11) 4449.4607</a>
+            <a className="font-eras letter-spacing--1" href="tel:01144494607" rel="noopener noreferrer"><FontAwesomeIcon icon={faPhone} /> (11) 4449.4607</a>
             <a href="mailto:freezing@freezing.com.br" target="_blank" rel="noopener noreferrer">freezing@freezing.com.br</a>
           </div>
 
@@ -123,7 +123,7 @@ class Footer extends Component {
 
           <div className="freezing-contact">
             <h2>Freezing Gases</h2>
-            <a className="font-eras letter-spacing--1" href="tel:01144494607" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPhone} /> (11) 4449.4607</a>
+            <a className="font-eras letter-spacing--1" href="tel:01144494607" rel="noopener noreferrer"><FontAwesomeIcon icon={faPhone} /> (11) 4449.4607</a>
             <a className="font-eras letter-spacing--1" href="https://api.whatsapp.com/send?phone=5511958966939" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'whatsapp']} /> (11) 95896-6939</a>
             <a href="mailto:freezing@freezing.com.br" target="_blank" rel="noopener noreferrer">freezing@freezing.com.br</a>
           </div>

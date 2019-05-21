@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import Helmet from "react-helmet"
 import Page from '../components/Page';
 import HomeStyled from "../styles/pages/home.js";
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 class Home extends Component {
   state = {
@@ -37,28 +38,28 @@ class Home extends Component {
           <Grid className="section" component="section" container justify="center">
             <Grid item className="container">
               <div className="highlights">
-                <article className="highlights__card">
+                <NavLink className="highlights__card" to='/servicos#instalacao-equipamentos'>
                   <img className="img-fluid" src="img/home/instalacao-completa.jpg" alt="Instalação Completa de Ar Condicionado" />
                   <div className="highlights__card--text">
                     <div className="title">Instalação & Infraestrutura</div>
                     <div className="description">Da execução do projeto até o start up dos equipamentos</div>
                   </div>
-                </article>
-                <article className="highlights__card">
+                </NavLink>
+                <NavLink className="highlights__card" to='/servicos#manutencao-preventiva'>
                   <img className="img-fluid" src="img/home/manutencao.jpg" alt="Manutenção" />
                   <div className="highlights__card--text">
                     <div className="title">Preventiva<br />& Reparos</div>
                     <div className="description">Assistência Técnica Completa</div>
                   </div>
-                </article>
-                <article className="highlights__card">
+                </NavLink>
+                <NavLink className="highlights__card" to='/gases-industriais#gases-industriais'>
                   <img className="img-fluid" src="img/home/gases-industriais.jpg" alt="Gases Industriais" />
                   <div className="highlights__card--text">
                     <div className="description">Fornecimento de Gases Industriais<br />
                       Locação de cilindros<br />
                       Acessórios para Solda</div>
                   </div>
-                </article>
+                </NavLink>
               </div>
             </Grid>
           </Grid>
@@ -74,30 +75,30 @@ class Home extends Component {
                 <h2 className="subtitle has-line"><span>Serviços</span></h2>
 
                 <div className="servicos__items">
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/servicos#instalacao-equipamentos">
                     <figure className="img-fluid servicos__item--img instalacao" alt="Ícone de Instalação" />
                     <h3 className="title">Instalação</h3>
-                  </div>
+                  </NavLink>
 
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/servicos#manutencao-preventiva">
                     <figure className="img-fluid servicos__item--img manutencao" alt="Ícone de Manutenção" />
                     <h3 className="title">Manutenção</h3>
-                  </div>
+                  </NavLink>
 
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/servicos#manutencao-preventiva">
                     <figure className="img-fluid servicos__item--img preventiva" alt="Ícone de Preventiva" />
                     <h3 className="title">Preventiva</h3>
-                  </div>
+                  </NavLink>
 
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/servicos#manutencao-corretiva">
                     <figure className="img-fluid servicos__item--img deteccao" alt="Ícone de Detecção" />
                     <h3 className="title">Detecção</h3>
-                  </div>
+                  </NavLink>
 
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/gases-industriais#gases-industriais">
                     <figure className="img-fluid servicos__item--img fornecimento" alt="Ícone de Fornecimento" />
                     <h3 className="title">Fornecimento</h3>
-                  </div>
+                  </NavLink>
                 </div>
 
               </div>
@@ -140,28 +141,28 @@ class Home extends Component {
           <Grid className="section" component="section" container justify="center">
             <Grid item className="container">
               <div className="highlights">
-                <article className="highlights__card">
+                <NavLink className="highlights__card" to='/servicos#instalacao-equipamentos'>
                   <img className="img-fluid" src="img/home/instalacao-completa.jpg" alt="Instalação Completa de Ar Condicionado" />
                   <div className="highlights__card--text">
                     <div className="title">Instalação & Infraestrutura</div>
                     <div className="description">Da execução do projeto até o start up dos equipamentos</div>
                   </div>
-                </article>
-                <article className="highlights__card">
+                </NavLink>
+                <NavLink className="highlights__card" to='/servicos#manutencao-preventiva'>
                   <img className="img-fluid" src="img/home/manutencao.jpg" alt="Manutenção" />
                   <div className="highlights__card--text">
                     <div className="title">Preventiva<br />& Reparos</div>
                     <div className="description">Assistência Técnica Completa</div>
                   </div>
-                </article>
-                <article className="highlights__card">
+                </NavLink>
+                <NavLink className="highlights__card" to='/gases-industriais#gases-industriais'>
                   <img className="img-fluid" src="img/home/gases-industriais.jpg" alt="Gases Industriais" />
                   <div className="highlights__card--text">
                     <div className="description">Fornecimento de Gases Industriais<br />
                       Locação de cilindros<br />
                       Acessórios para Solda</div>
                   </div>
-                </article>
+                </NavLink>
               </div>
             </Grid>
           </Grid>
@@ -177,30 +178,30 @@ class Home extends Component {
                 <h2 className="subtitle has-line"><span>Serviços</span></h2>
 
                 <div className="servicos__items">
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/servicos#instalacao-equipamentos">
                     <img className="img-fluid" src="img/home/instalacao-icon.png" alt="Ícone de Instalação" />
                     <h3 className="title">Instalação</h3>
-                  </div>
+                  </NavLink>
 
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/servicos#manutencao-preventiva">
                     <img className="img-fluid" src="img/home/manutencao-icon.png" alt="Ícone de Manutenção" />
                     <h3 className="title">Manutenção</h3>
-                  </div>
+                  </NavLink>
 
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/servicos#manutencao-preventiva">
                     <img className="img-fluid" src="img/home/preventiva-icon.png" alt="Ícone de Preventiva" />
                     <h3 className="title">Preventiva</h3>
-                  </div>
+                  </NavLink>
 
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/servicos#manutencao-corretiva">
                     <img className="img-fluid" src="img/home/deteccao-icon.png" alt="Ícone de Detecção" />
                     <h3 className="title">Detecção</h3>
-                  </div>
+                  </NavLink>
 
-                  <div className="servicos__item">
+                  <NavLink className="servicos__item" to="/gases-industriais#gases-industriais">
                     <img className="img-fluid" src="img/home/fornecimento-icon.png" alt="Ícone de Fornecimento" />
                     <h3 className="title">Fornecimento</h3>
-                  </div>
+                  </NavLink>
                 </div>
 
               </div>

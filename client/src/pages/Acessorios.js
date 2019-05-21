@@ -71,8 +71,8 @@ class Acessorios extends Component {
                         <div className="content">
                           <h3 className="title">Faça seu pedido</h3>
                           <div className="text">
-                            <a href="tel:011958966939" target="_blank" rel="noopener noreferrer">(11) 95896-6939</a>
-                            <a href="tel:01144494607" target="_blank" rel="noopener noreferrer">(11) 4449-4607</a>
+                            <a href="tel:011958966939" rel="noopener noreferrer">(11) 95896-6939</a>
+                            <a href="tel:01144494607" rel="noopener noreferrer">(11) 4449-4607</a>
                           </div>
                           <div className="text">
                             <a href="mailto:gases@freezing.com.br" target="_blank" rel="noopener noreferrer">gases@freezing.com.br</a>

@@ -20,25 +20,25 @@ const HeaderStyled = createGlobalStyle`
       top: 60%;
     }
 
-    @media (min-width: 1280px) and (max-width: 1439px) {
-      left: 7%;
+    @media (min-width: 1280px) {
+      left: 0;
       top: 50%;
     }
 
-    @media (min-width: 1440px) and (max-width: 1679px) {
-      left: 7%;
-      top: 45%;
+    /* @media (min-width: 1440px) and (max-width: 1679px) {
+      left: 0;
+      top: 50%;
     }
 
     @media (min-width: 1680px) and (max-width: 1919px) {
-      left: 7%;
+      left: 0;
       top: 50%;
     }
 
     @media (min-width: 1920px) {
-      left: 7%;
+      left: 0;
       top: 50%;
-    }
+    } */
   }
 
   .contact-list {

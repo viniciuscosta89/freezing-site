@@ -33,7 +33,7 @@ const styles = {
   },
 
   mainHeader: {
-    background: "url('img/bg-header-desktop.png') center top/auto no-repeat",
+    background: "url('img/bg-header-desktop.png') center top/cover no-repeat",
     display: "flex",
     flexGrow: 1,
     justifyContent: "center",
@@ -123,7 +123,7 @@ class Header extends Component {
                 <img className="img-fluid" src="img/logo.png" alt="Freezing Logo" />
               </div>
               <ul className="contact-list">
-                <li><a href="tel:01144494607" target="_blank" rel="noopener noreferrer">
+                <li><a href="tel:01144494607" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faPhone} /> (11)   4449-4607</a></li>
                 <li><a href="https://api.whatsapp.com/send?phone=5511958966939" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={['fab', 'whatsapp']} /> (11) 95896-6939</a></li>
@@ -149,7 +149,7 @@ class Header extends Component {
             {renderMobileMenu}
 
             <ul className="contact-list">
-              <li><a href="tel:01144494607" target="_blank" rel="noopener noreferrer">
+              <li><a href="tel:01144494607" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faPhone} /> (11)   4449-4607</a></li>
               <li><a href="https://api.whatsapp.com/send?phone=5511958966939" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'whatsapp']} /> (11) 95896-6939</a></li>

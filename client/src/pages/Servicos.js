@@ -24,7 +24,7 @@ class Servicos extends Component {
             </Grid>
           </Grid>
         </Grid>
-        <Grid className="section instalacao-equipamentos" component="section" container justify="center">
+        <Grid id="instalacao-equipamentos" className="section instalacao-equipamentos" component="section" container justify="center">
           <Grid item container className="container" spacing={32}>
             <Grid item xs={12} sm={4}>
               <img className="img-fluid" src="img/servicos/instalacao-equipamentos.png" alt="Instalação de Equipamentos" />
@@ -50,7 +50,7 @@ class Servicos extends Component {
           </Grid>
         </Grid>
 
-        <Grid className="section manutencao-preventiva" component="section" container justify="center">
+        <Grid id="manutencao-preventiva" className="section manutencao-preventiva" component="section" container justify="center">
           <Grid item container className="container">
             <Grid item xs={12} sm={4}>
               <img className="img-fluid" src="img/servicos/manutencao-preventiva.png" alt="Manutenção Preventiva" />
@@ -77,7 +77,7 @@ class Servicos extends Component {
           </Grid>
         </Grid>
 
-        <Grid className="section manutencao-corretiva" component="section" container justify="center">
+        <Grid id="manutencao-corretiva" className="section manutencao-corretiva" component="section" container justify="center">
           <Grid item container className="container">
             <Grid item xs={12} sm={4}>
               <img className="img-fluid" src="img/servicos/manutencao-corretiva.png" alt="Manutenção Corretiva" />

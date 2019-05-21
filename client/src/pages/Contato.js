@@ -75,7 +75,7 @@ class Contato extends Component {
                   <img className="img-fluid" src="img/phone-icon.png" alt="Ícone de Telefone" />
                   <div className="content">
                     <h2 className="title min-height--52">Fale Conosco</h2>
-                    <a href="tel:01144494607" target="_blank" rel="noopener noreferrer">(11) 4449-4607</a>
+                    <a href="tel:01144494607" rel="noopener noreferrer">(11) 4449-4607</a>
                     <a href="mailto:freezing@freezing.com.br" target="_blank" rel="noopener noreferrer">freezing@freezing.com.br</a>
                   </div>
                 </div>
@@ -86,8 +86,8 @@ class Contato extends Component {
                   <img className="img-fluid" src="img/shopping-cart--icon.png" alt="Ícone de carrinho de compras" />
                   <div className="content">
                     <h2 className="title">Faça seu pedido<br />Freezing Gases</h2>
-                    <a href="tel:01144494607" target="_blank" rel="noopener noreferrer">(11)  4449-4607</a>
-                    <a href="tel:011958966939" target="_blank" rel="noopener noreferrer">(11) 95896-6939</a>
+                    <a href="tel:01144494607" rel="noopener noreferrer">(11)  4449-4607</a>
+                    <a href="tel:011958966939" rel="noopener noreferrer">(11) 95896-6939</a>
                     <a href="mailto:gases@freezing.com.br" target="_blank" rel="noopener noreferrer">gases@freezing.com.br</a>
                   </div>
                 </div>
