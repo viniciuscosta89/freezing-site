@@ -37,6 +37,17 @@ const ServicosStyled = createGlobalStyle`
     padding-left: 10rem;
   }
 }
+
+@media (max-width: 1279px) {
+  div[class*=column--img] {
+    order: 1;
+  }
+
+  div[class*=column--text] {
+    margin-bottom: 1rem;
+  }
+}
+
 `
 
 export default ServicosStyled;

@@ -33,21 +33,21 @@ class Clientes extends Component {
         <section className="section">
           <Grid item container className="container" spacing={32}>
             <Grid item xs={12}>
-              <div class="clientes">
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/daslu-logo.png" alt="Logo da Daslu" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/5asec-logo.png" alt="Logo da 5asec" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/advanced-cambio-logo.png" alt="Logo da Advanced Câmbio" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/kopenhagen-logo.png" alt="Logo da Kopenhagen" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/elavon-logo.png" alt="Logo da Elavon" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/fuvest-logo.png" alt="Logo da Fuvest" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/shoestock-logo.png" alt="Logo da Shoestock" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/colegio-logo.png" alt="Logo do Colégio Imperatriz Leopoldina" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/staf-logo.png" alt="Logo da S.T.A.F." /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/mahogany-logo.png" alt="Logo da Mahogany Cosméticos" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/zabo-logo.png" alt="Logo da Zabo Enhenharia" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/fazane-logo.png" alt="Logo da Fazane" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/medcorp-imagem-logo.png" alt="Logo da Medcorp" /></div>
-                <div class="clientes--item"><img className="img-fluid" src="img/clientes/smh-logo.png" alt="Logo da SMH - Sistemas Contra Incêndio" /></div>
+              <div className="clientes">
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/daslu-logo.png" alt="Logo da Daslu" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/5asec-logo.png" alt="Logo da 5asec" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/advanced-cambio-logo.png" alt="Logo da Advanced Câmbio" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/kopenhagen-logo.png" alt="Logo da Kopenhagen" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/elavon-logo.png" alt="Logo da Elavon" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/fuvest-logo.png" alt="Logo da Fuvest" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/shoestock-logo.png" alt="Logo da Shoestock" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/colegio-logo.png" alt="Logo do Colégio Imperatriz Leopoldina" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/staf-logo.png" alt="Logo da S.T.A.F." /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/mahogany-logo.png" alt="Logo da Mahogany Cosméticos" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/zabo-logo.png" alt="Logo da Zabo Enhenharia" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/fazane-logo.png" alt="Logo da Fazane" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/medcorp-imagem-logo.png" alt="Logo da Medcorp" /></div>
+                <div className="clientes--item"><img className="img-fluid" src="img/clientes/smh-logo.png" alt="Logo da SMH - Sistemas Contra Incêndio" /></div>
               </div>
             </Grid>
           </Grid>

@@ -127,7 +127,7 @@ const HomeStyled = createGlobalStyle`
       }
 
       @media (max-width: 959px) {
-        flex: 1 1 100%;
+        flex: 1 1 50%;
         margin: 0 auto 1rem;
       }
 

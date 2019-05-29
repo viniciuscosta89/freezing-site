@@ -26,11 +26,11 @@ class Servicos extends Component {
         </Grid>
         <Grid id="instalacao-equipamentos" className="section instalacao-equipamentos" component="section" container justify="center">
           <Grid item container className="container" spacing={32}>
-            <Grid item xs={12} sm={4}>
+            <Grid item className="instalacao-equipamentos__column--img" xs={12} sm={4}>
               <img className="img-fluid" src="img/servicos/instalacao-equipamentos.png" alt="Instalação de Equipamentos" />
             </Grid>
 
-            <Grid item xs={12} sm={8}>
+            <Grid item className="instalacao-equipamentos__column--text" xs={12} sm={8}>
               <GradientSubtitle>
                 <img src="img/servicos/instalacao-equipamentos--icon.png" alt="Ícone de ferramentas" /> <span>Instalação de Equipamentos</span>
               </GradientSubtitle>
@@ -52,11 +52,11 @@ class Servicos extends Component {
 
         <Grid id="manutencao-preventiva" className="section manutencao-preventiva" component="section" container justify="center">
           <Grid item container className="container">
-            <Grid item xs={12} sm={4}>
+            <Grid item className="manutencao-preventiva__column--img" xs={12} sm={4}>
               <img className="img-fluid" src="img/servicos/manutencao-preventiva.png" alt="Manutenção Preventiva" />
             </Grid>
 
-            <Grid item xs={12} sm={8}>
+            <Grid item className="manutencao-preventiva__column--text" xs={12} sm={8}>
               <GradientSubtitle>
                 <img src="img/servicos/manutencao-preventiva--icon.png" alt="Ícone de ferramentas" /> <span>Manutenção Preventiva</span>
               </GradientSubtitle>
@@ -79,11 +79,11 @@ class Servicos extends Component {
 
         <Grid id="manutencao-corretiva" className="section manutencao-corretiva" component="section" container justify="center">
           <Grid item container className="container">
-            <Grid item xs={12} sm={4}>
+            <Grid item className="manutencao-corretiva__column--img" xs={12} sm={4}>
               <img className="img-fluid" src="img/servicos/manutencao-corretiva.png" alt="Manutenção Corretiva" />
             </Grid>
 
-            <Grid item xs={12} sm={8}>
+            <Grid item className="manutencao-corretiva__column--text" xs={12} sm={8}>
               <GradientSubtitle>
                 <img src="img/servicos/manutencao-corretiva--icon.png" alt="Ícone de ferramentas" /> <span>Manutenção Corretiva</span>
               </GradientSubtitle>
