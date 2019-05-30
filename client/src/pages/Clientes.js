@@ -15,6 +15,11 @@ class Clientes extends Component {
         </Helmet>
         <CssBaseline />
         <ClientesStyled />
+        <Grid container justify="center" component="section" className="section logo">
+          <Grid item className="container">
+            <img className="img-fluid" src="img/logo.png" alt="Freezing Logo" />
+          </Grid>
+        </Grid>
         <section className="section">
           <Grid item container className="container" spacing={32}>
             <Grid item xs={12}>

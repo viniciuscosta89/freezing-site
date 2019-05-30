@@ -16,6 +16,11 @@ class GasesIndustriais extends Component {
         </Helmet>
         <CssBaseline />
         <GasesIndustriaisStyled />
+        <Grid container justify="center" component="section" className="section logo">
+          <Grid item className="container">
+            <img className="img-fluid" src="img/logo.png" alt="Freezing Logo" />
+          </Grid>
+        </Grid>
         <Grid id="gases-industriais" className="section" container justify="center" component="section">
           <Grid item container className="container" spacing={32}>
             <Grid item xs={12}>

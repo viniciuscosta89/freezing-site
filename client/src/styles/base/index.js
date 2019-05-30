@@ -47,6 +47,16 @@ const Base = createGlobalStyle`
   .section {
     display: flex;
     justify-content: center;
+
+    &.logo {
+      @media (min-width: 1280px) {
+        display: none;
+      }
+
+      .img-fluid {
+        max-width: 75%;
+      }
+    }
   }
 
   .container {
